@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f433d91a-0314-4523-a549-5e79bcea41c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Holamundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/TiposdeInputs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TiposdeInputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tiposdprints.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,8 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.TiposdeInputs">
-    <configuration name="TiposdeInputs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Tiposdprints">
+    <configuration name="Tiposdprints" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Taller_1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,7 +48,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\jsuarezd\Documents\GitHub\Python\Curso_Python\Taller_1\TiposdeInputs.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jsuarezd\Documents\GitHub\Python\Curso_Python\Taller_1\Tiposdprints.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TiposdeInputs" />
+        <item itemvalue="Python.Tiposdprints" />
       </list>
     </recent_temporary>
   </component>
