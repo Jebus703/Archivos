@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433d91a-0314-4523-a549-5e79bcea41c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TiposdeInputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tiposdprints.py" afterDir="false" />
-    </list>
+    <list default="true" id="f433d91a-0314-4523-a549-5e79bcea41c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +26,7 @@
   "keyToString": {
     "Python.Holamundo.executor": "Run",
     "Python.TiposdeInputs.executor": "Run",
+    "Python.Tiposdprints.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Python",
