@@ -13,5 +13,3 @@ print("tu nombre es  : "+input("dime tu nombre : "))
 print("tu nombre es  : "+input("dime tu nombre : ")+" "+input("dime tu apellido : "))
 #inputs mejorado para una mejor comprension lectura de codigo
 print("tu nombre es  : "+(input("dime tu nombre : "))+" "+(input("dime tu apellido : ")))
-
-
