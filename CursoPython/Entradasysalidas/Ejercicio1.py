@@ -1,3 +1,8 @@
+'''
+Created on 15/08/2024
+
+@author: jsuarezd
+'''
 # solucion al ejercicio del dia 1
 # Ejercicio : escribe un codigo para ayudar a un amigo a elegir el nombre de su cerveza
 # el cual haga dos preguntas y luego una las respuestas a estas dos preguntas
