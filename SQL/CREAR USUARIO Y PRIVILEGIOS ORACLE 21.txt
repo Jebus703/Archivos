@@ -1,0 +1,79 @@
+CREAMOS EL USUARIO EN EL TABLESPACE USER
+QUOTA= Asigna un espacio en megabites o kilobites en el tablespace asignado. 
+Si no se especifica esta cláusula, el usuario no tiene 
+cuota asignada y no podrá crear objetos en el tablespace
+-------------------------------------------------------------------------
+SQL> alter session set "_oracle_script"=true;
+Sesi¾n modificada.
+
+SQL> create user MAKI identified by 123456 default tablespace users temporary 
+tablespace temp quota unlimited on users;
+
+
+
+
+Creación del Rol
+----------------------------------------------------------------------------
+SQL> create role persm;
+Rol creado.
+
+
+--------Dar Permisos a rol--------------------------
+
+SQL> grant connect to persm;
+=============Permite que el uusario se connecte a oracle
+
+
+SQL> GRANT CREATE SESSION TO persm;
+=============Conectarse a la BD.
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE ANY TABLE TO persm;
+=============Crear tablas. El usuario debe tener cuota en el espacio de tablas, 
+=============o ha de tener asignado el privilegio UNLIMITED TABLESPACE.
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE ROLE TO persm;
+=============Crear roles.
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE USER TO persm;
+=============Crear usuarios.
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE VIEW TO persm;
+=============Crear vistas.
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE ANY INDEX TO persm;
+============Crear cualquier índice.
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE TRIGGER TO persm;
+============Crear triggers o disparadores
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE PROCEDURE TO persm;
+============Crear procedimientos almacenados
+
+Concesi¾n terminada correctamente.
+
+SQL> GRANT CREATE SEQUENCE TO persm;
+============Crear secuencias
+
+Concesi¾n terminada correctamente.
+
+
+
+
+
+Asignamos el rol al usuario
+------------------------------------------------------------
+SQL> grant persm to (usuario creado);
